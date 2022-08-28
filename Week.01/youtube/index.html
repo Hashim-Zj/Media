@@ -1,10 +1,719 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>YouTube</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    <img class="thumbnail" src="thumbnails/mqdefault.jpg">
-  </body>
+
+<head>
+  <title>YouTube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+  <link style="background-color: #0000;" rel="icon" href="icons/favicon.ico" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Filled|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c5e9f56e49.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+
+    <div class="left-section">
+      <button class="line-3"><i class="fa-solid fa-bars fa-xl"></i></button>
+      <img class="youtube-logo" src="icons/youtube-logo.png" alt="">
+    </div>
+
+    <div class="midd-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button"><i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <div class="tool">Search</div>
+      </button>
+      <button class="voice-search-button"><i class="fa-solid fa-microphone fa-xl"></i>
+        <div class="tool">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <button class="add-video-btn"><img class="add-video-icon" src="icons/add-video-icon-removebg-preview.png" alt="">
+        <div class="tool">Create</div>
+      </button>
+      <div class="notification-no-container"><button class="bell-bttn"><i class="fa-solid fa-bell fa-xl"></i></button>
+        <div class="notification">6</div>
+      </div>
+      <img class="current-user" src="icons/hashim.png" alt="">
+    </div>
+  </header>
+
+  <!-- Side Barr -->
+  <nav class="sidbar">
+    <div class="sidebar-links">
+      <img class="sidebar-ligo-imag" src="icons/home.svg" alt="">
+      <div class="logo-text">Home</div>
+    </div>
+    <div class="sidebar-links">
+      <img class="sidebar-ligo-imag" src="icons/explore.svg" alt="">
+      <div class="logo-text">Explore</div>
+    </div>
+    <div class="sidebar-links">
+      <img class="sidebar-ligo-imag" src="icons/shorts-logo-icon.png" alt="">
+      <div class="logo-text">Shorts</div>
+    </div>
+    <div class="sidebar-links">
+      <img class="sidebar-ligo-imag" src="icons/subscription.svg" alt="">
+      <div class="logo-text">Subscription</div>
+    </div>
+    <div class="sidebar-links">
+      <img class="sidebar-ligo-imag" src="icons/video-library.svg" alt="">
+
+      <div class="logo-text">Library</div>
+    </div>
+  </nav>
+
+  <!-- Video Grid -->
+  <main>
+    <section class="video-grid">
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Pixerized Cars.jpg">
+          <div class="video-time">2:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Fabulous Cars.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Pixarized Cars 3 &#8961; Mad Max &#8961; Fury Road(Music Video)
+            </p>
+            <p class="video-author">Fabulous Cars VEEVOOO</p>
+            <p class="video-stats">8.2M views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Will Stick man.jpg">
+          <div class="video-time">15:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Gruffalo World.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Will Stick Make It Home!?&#128563;&#127811;@Grufflo World:Stick Man
+            </p>
+            <p class="video-author">Gruffalo World<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">8M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Cars on-The-Rod.jpg">
+          <div class="video-time">2:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/DisneyPlus Hotstar.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Cars on the Road|Official Trailer|8th September|...
+            </p>
+            <p class="video-author">DisneyPlus Hotstar<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">893K views &middot; 3 weekes ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/BB Ki Vines.jpg">
+          <div class="video-time">14:02</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/BB Ki Vines.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">BB KI Vines(Vlog#8)-|BB in Dubai|
+            </p>
+            <p class="video-author">BB KI Vines<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">3.5M views &middot; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Fast&Furious.jpg">
+          <div class="video-time">10:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/hasan-15m.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Fast And Furious 8(2017)All Best Scenes
+            </p>
+            <p class="video-author">hasan 15m</p>
+            <p class="video-stats">20M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Avathr-The Way of water.jpg">
+          <div class="video-time">1:38</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/imax.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Avatar:The Way of Water|Official IMAX&#174; Trailer
+            </p>
+            <p class="video-author">IMAX</p>
+            <p class="video-stats">3.5M views &middot; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Cooking-Chicken.jpg">
+          <div class="video-time">13:06</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/ARS-primitive-Cooking.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Cooking Chicken Punjabi Curry Recipe-Chicken Tikka Massala Curry Eating wit..
+            </p>
+            <p class="video-author">ARSmPrimitive Cooking<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">8.4M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/South-Georgia-penguin.jpg">
+          <div class="video-time">48:52</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Free-Documentary-Nature.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">South Georgia-Penguin Paradise of the South Atlantic|Free Documentary
+            </p>
+            <p class="video-author">Free Documentary-Nature<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">3.1M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/New-Hard-Drill-Beat.jpg">
+          <div class="video-time">2:42</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Hustler-Beatz.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">New Hard Drill Beat "GOAT"-Pros by HUSTLER BEATZ
+            </p>
+            <p class="video-author">HUSTLER BEATZ</p>
+            <p class="video-stats">70 views &middot; 3 days ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Vaya-Tohfa-song.jpg">
+          <div class="video-time">3:25</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Sony-Music-india.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Vaya-Tohfa|Official Music Video|Vaibhav Pain|Manohar Rao|Love So...
+            </p>
+            <p class="video-author">Sony Music India<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">8.5M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Kapitan_Enteng.jpg">
+          <div class="video-time">18:34</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/PM DRAMA.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">KAPITAN ENTENG || August 25, 2022</p>
+            <p class="video-author">PM DRAMA</p>
+            <p class="video-stats">1.8K views &middot; 16 hours ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Madison_pt_3-NO-Promotion.jpg">
+          <div class="video-time">2:50:52</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/CarryisLive.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">BHAIYA JI SMILE | MADISON
+              Pt 3 - NO PROMOTION</p>
+            <p class="video-author">CarryisLive<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">459,647 views &middot; Streamed live 7 hours ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Amazon-4k.webp">
+          <div class="video-time">30:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Scenic Scenes.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Amazon 4k - The World's Largest Tropical Rainforest Part 2 | Jungle Sounds | Scen...
+            </p>
+            <p class="video-author">Scenic Scenes<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">16M views &middot; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Apple-park.jpg">
+          <div class="video-time">5:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Tech Vision.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Inside The $5 Billion Apple Headquarters</p>
+            <p class="video-author">Tech Vision<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">13M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/The-Fox-&-Bird.jpg">
+          <div class="video-time">12:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/MAGNETFILIM.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">The Fox and the Bird-CGI short filim by fred and sam Guillaume</p>
+            <p class="video-author">MAGNETFILIM<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">44M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/who-are-you.jpg">
+          <div class="video-time">13:32</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Our Animated Box.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Who are you?</p>
+            <p class="video-author">Our Animated Box</p>
+            <p class="video-stats">13M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/morgam-freeman.jpg">
+          <div class="video-time">50:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/National Geographic.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Apocalypse (Full Episode) The story of God with Morgan Freeman</p>
+            <p class="video-author">National Geographic<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">3.2M views &middot; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Charlie-Chaplin.jpg">
+          <div class="video-time">28:52</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/iconauta.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Charlie Chaplin: His New Job(1915)</p>
+            <p class="video-author">iconauta</p>
+            <p class="video-stats">2.7M views &middot; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Kung-Fu-Panda.jpg">
+          <div class="video-time">6:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Khaled Osman.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Kung Fu Panda | Who Are You</p>
+            <p class="video-author">Khaled Osman</p>
+            <p class="video-stats">9.7M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Stories-from-Fiji-Islands.webp">
+          <div class="video-time">52:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Free Documentary.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Amazing Quest:Stories from Fiji Islands|Somewhere on Earth:Fiji Islands|Free...
+            </p>
+            <p class="video-author">Free Documentary<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">686K views &middot; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Mr-Bean.webp">
+          <div class="video-time">1:37:21</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Classic Mr Bean.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">The ARMY Are Hear Mr Been! | Mr Bean Full Episodes | Mr Bean Official | Class...
+            </p>
+            <p class="video-author">Classic Mr Bean</p>
+            <p class="video-stats">77M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Frozen-Worlds.webp">
+          <div class="video-time">53:32</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Netflix.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Our Planet | Frozen Worlds | FULL EPISODE | Netflix
+            </p>
+            <p class="video-author">Netflix<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">23M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/A-Day-in-Microsoft.webp">
+          <div class="video-time">8:36</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Brown Tech Daddy.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">A Day in the Life of a Microsoft Software Engineer | Seattle
+            </p>
+            <p class="video-author">Brown Tech Daddy</p>
+            <p class="video-stats">428K views &middot; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Ninja-Assassin.webp">
+          <div class="video-time">6:43</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Almyth.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Ninja Assassin Fight Scene [Solo]
+            </p>
+            <p class="video-author">Almyth</p>
+            <p class="video-stats">21M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Our-Planet|Jungles.webp">
+          <div class="video-time">50:58</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Netflix.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Our Planet|Jungles|FULL EPISODE|Netflix
+            </p>
+            <p class="video-author">Netflix<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">13M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Walt-Disny-The-Little.webp">
+          <div class="video-time">8:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/LPmangas.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Walt Disny-The Little House-1952
+            </p>
+            <p class="video-author">LPmangas</p>
+            <p class="video-stats">6.5M views &middot; 14 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/My-Placement-Journy-to-FAANG!!.webp">
+          <div class="video-time">10:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Singh in USA.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Why I resigned & My Placement Journy to FAANG!!
+            </p>
+            <p class="video-author">Singh in USA<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">292K views &middot; 12 days ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Apple-Event.webp">
+          <div class="video-time">1:10:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Apple.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Apple Event &#8212; October 13
+            </p>
+            <p class="video-author">Apple<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">59M views &middot; Streamed 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/CGI-3D-Animated-Short.webp">
+          <div class="video-time">6:46</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/TheCGBros.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">CGI 3D Animated Short "The Albatross" - by Joel Best, Alex Jeremy, and Alex Karonis
+              |...
+            </p>
+            <p class="video-author">TheCGBros</p>
+            <p class="video-stats">23M views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/forest-camping.jpg">
+          <div class="video-time">26:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/forest_camping.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Building a Survival Shelter in a Forest - Camp food from natural herbs
+            </p>
+            <p class="video-author">Mr Wild Nature</p>
+            <p class="video-stats">7.1M views &middot; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/tom&jery.jpg">
+          <div class="video-time">7:49</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/tom&jary.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Tom and Jerry - Cat Fishin'
+            </p>
+            <p class="video-author">MovieCon Animation</p>
+            <p class="video-stats">25M views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Monta-Re(lootera).jpg">
+          <div class="video-time">4:08</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Sudipta's MeloTunes.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Monta Re(Lootera)|Unplugged Cover|Sudipta
+            </p>
+            <p class="video-author">Sudipta's MeloTunes</p>
+            <p class="video-stats">1.6M views &middot; 7 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/amazing-fishing.jpg">
+          <div class="video-time">24:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/Top Fishing TV.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">amazing fishing! a fisherman now catching fish a lot and fiels crabs, snails
+            </p>
+            <p class="video-author">Top Fishing TV</p>
+            <p class="video-stats">1.3M views &middot; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/Going to MOON.jpg">
+          <div class="video-time">5:31</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="chanel-picture">
+            <img class="chanel-profile" src="chanel_Thumbnail/NASA.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">How We Are Going to the Moon-4K
+            </p>
+            <p class="video-author">NASA<span class="c-v material-icons">check_circle</span></p>
+            <p class="video-stats">9M views &middot; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+
 </html>
